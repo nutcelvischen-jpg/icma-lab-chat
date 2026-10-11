@@ -13,6 +13,7 @@
 ## 實驗室總覽
 關鍵字：實驗室、ICMA、介紹、是什麼、在做什麼、主持人、老師、口號、lab、ICMA、about、what do you do、professor、PI
 網頁：https://drchunchihchen.github.io/cv/#laboratory
+網站上走來走去、回答問題的包裹機器人叫「蝦哥」🦐，是實驗室的導覽 Agent。
 智慧商務多代理人實驗室（ICMA Lab, Intelligent Commerce & Multi-Agent Systems），隸屬國立臺中科技大學 國際貿易與經營系，主持人為陳俊智 博士（副教授、商業智慧應用與研究中心主任）。口號：「你有點子，老師有 Token！」號稱國貿系最多 Token 的實驗室，培養「國貿＋AI FDE（前進部署工程師）」。三大方向：AI 代理人團隊分工（Multi-Agent AI）、智慧商務數據決策、企業流程全自動化（n8n / Make）。聯絡 email：nutcelvischen@gmail.com。
 
 ## 加入實驗室
