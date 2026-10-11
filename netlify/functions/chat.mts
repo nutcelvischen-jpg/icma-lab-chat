@@ -1,6 +1,7 @@
 // ICMA Lab mascot chat: proxies visitor questions to OpenRouter.
 // The OpenRouter key lives only in the Netlify env var OPENROUTER_API_KEY (scope: Functions).
 import type { Config, Context } from "@netlify/functions"
+import { getStore } from "@netlify/blobs"
 
 const MODEL = "openai/gpt-6-luna"
 const ALLOWED_ORIGINS = [
@@ -10,6 +11,26 @@ const ALLOWED_ORIGINS = [
 ]
 const MAX_QUESTION_CHARS = 300
 const MAX_HISTORY_TURNS = 4
+const DAILY_PER_VISITOR = 6   // questions per browser per day (Taiwan time)
+const DAILY_PER_IP = 60       // backstop for people clearing storage / incognito
+
+// ---- Daily quota, stored in Netlify Blobs; fails open if the store is unavailable ----
+const taipeiDay = () => new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10)
+async function useQuota(visitor: string, ip: string): Promise<{ ok: boolean; left: number }> {
+  try {
+    const store = getStore({ name: "chat-quota", consistency: "strong" })
+    const day = taipeiDay()
+    const vKey = `${day}/v/${visitor}`, iKey = `${day}/ip/${ip}`
+    const [v, i] = await Promise.all([store.get(vKey), store.get(iKey)])
+    const vn = Number(v) || 0, inn = Number(i) || 0
+    if (vn >= DAILY_PER_VISITOR || inn >= DAILY_PER_IP) return { ok: false, left: 0 }
+    await Promise.all([store.set(vKey, String(vn + 1)), store.set(iKey, String(inn + 1))])
+    return { ok: true, left: DAILY_PER_VISITOR - vn - 1 }
+  } catch (err) {
+    console.error("quota store error", String(err))
+    return { ok: true, left: -1 }
+  }
+}
 
 const SYSTEM_PROMPT = `你是「蝦哥 🦐」，智慧商務多代理人實驗室（ICMA Lab）網站上的導覽小機器人，是一個跨境電商 AI Agent（包裹機器人造型）。自稱「蝦哥」（英文對話時自稱 Xia Ge），但不要每句都提自己的名字。
 下方「參考資料」是你唯一的知識來源，內容來自實驗室網站。
@@ -131,6 +152,14 @@ export default async (req: Request, context: Context) => {
   const question = typeof body?.question === "string" ? body.question.trim().slice(0, MAX_QUESTION_CHARS) : ""
   if (!question) return json({ error: "請輸入問題" }, 400, h)
 
+  const visitor = typeof body?.vid === "string" && /^[a-zA-Z0-9-]{8,64}$/.test(body.vid) ? body.vid : `ip-${context.ip || "unknown"}`
+  const quota = await useQuota(visitor, context.ip || "unknown")
+  const en = /^[\x00-\x7F\s]*$/.test(question)
+  if (!quota.ok) return json({
+    error: en ? "You’ve used today’s 6 questions. See you tomorrow! 🦐" : "今天的 6 題用完囉！明天再來找蝦哥 🦐 急事請寫信到 nutcelvischen@gmail.com。",
+    code: "daily_limit", left: 0,
+  }, 429, h)
+
   // short, sanitised history from the browser (plain text only, no system/tool roles)
   const history = Array.isArray(body?.history) ? body.history : []
   const turns = history
@@ -170,11 +199,11 @@ export default async (req: Request, context: Context) => {
   const answer = (data?.choices?.[0]?.message?.content || "").trim()
   logToSheet(context, question, answer, answer ? "ok" : "empty")
   if (!answer) return json({ error: "我想不出答案，換個問法試試？" }, 502, h)
-  return json({ answer }, 200, h)
+  return json({ answer, left: quota.left }, 200, h)
 }
 
 export const config: Config = {
   path: "/api/chat",
   method: ["POST", "OPTIONS"],
-  rateLimit: { windowLimit: 8, windowSize: 60, aggregateBy: ["ip", "domain"] },
+  rateLimit: { windowLimit: 20, windowSize: 60, aggregateBy: ["ip", "domain"] },
 }
