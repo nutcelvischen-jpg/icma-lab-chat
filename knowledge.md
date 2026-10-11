@@ -117,3 +117,8 @@ OCR：把圖片裡的文字辨識成可編輯文字的技術。
 關鍵字：課表、上課時間、什麼時候上課、約時間、預約、meeting、會面、討論、找老師、見面、office hour、課表、教室、上課地點、請假、寫信、email 格式、緊急、appointment、schedule、classroom
 網頁：https://drchunchihchen.github.io/cv/#contact
 約老師請注意：①至少提早一週寫信到 nutcelvischen@gmail.com 預約，信裡報上姓名、年級。②meeting 前一定要先在信裡寫清楚想討論的內容，讓老師先準備，不要見面才請老師現場想。③請先動手查資料，不要當伸手牌。④想在課堂前後找老師，請先查好老師的課表與教室（老師本學期課表：https://aisap.nutc.edu.tw/public/day/course_list.aspx?sem=1151&teacher=9042 ）；老師比較健忘、常記不得教室號碼，所以請問「老師，今天的 XXX 課是在 OOO 教室嗎？」，而不是問「老師你在哪？」。⑤老師的信都會被看到（有 AI 助理協助整理），緊急的事會優先通知老師。注意：在網站機器人這裡留言不會轉給老師，正式聯絡請寫信。
+
+## 企業合作與諮詢
+關鍵字：企業、公司、合作、導入、諮詢、免費諮詢、教育訓練、內訓、地端、Agent、自動化、工作流、儀表板、軟體開發、碳盤查、ISO 14064、產學合作、報價、business、consulting、training、enterprise
+網頁：https://drchunchihchen.github.io/cv/#business
+老師與實驗室提供企業五類服務：①AI 教育訓練（可結合 iPAS 培訓）②地端 AI 體驗與導入（資料不出公司）③AI Agent 與 n8n／Make 自動化工作流④客製軟體與決策儀表板⑤淨零碳盤查輔導（ISO 14064-1 主任查證員）。流程：免費諮詢 30 分鐘 → 找一個痛點小規模試行 → 正式導入 → 教育訓練與交接，可透過學校產學合作機制辦理。合作過：台灣康寧、工研院、快思 CRIS、海峰機械、哈伯精密、世聚、寶暉、丞桀。預約請寫信到 nutcelvischen@gmail.com，報上公司名稱與想解決的問題；費用依需求另議。
