@@ -78,3 +78,25 @@ Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台�
 關鍵字：網站、網頁、哪裡看、在哪、連結、頁面、更多、清單、完整、website、page、link、where、English
 網頁：https://drchunchihchen.github.io/cv/
 網站各頁：首頁（關於老師、實驗室、聯絡）https://drchunchihchen.github.io/cv/；著作論文 https://drchunchihchen.github.io/cv/publications.html；研究與產學專案 https://drchunchihchen.github.io/cv/projects.html；演講與講座 https://drchunchihchen.github.io/cv/talks.html；榮譽獲獎 https://drchunchihchen.github.io/cv/awards.html；教學資源 https://drchunchihchen.github.io/cv/teaching.html；現代軟體工程講義 https://drchunchihchen.github.io/cv/se/index.html；英文版個人頁（English profile）https://drchunchihchen.github.io/cv/en.html。
+
+## AI 名詞小辭典（一）模型與運算
+關鍵字：名詞、意思、是什麼、是啥、解釋、白話、Token、API、LLM、大語言模型、GPU、DGX、算力、微調、fine-tune、Prompt、提示詞、提示工程、term、meaning、what is
+網頁：https://drchunchihchen.github.io/cv/#laboratory
+Token：AI 讀寫文字的計量單位，像「字數」。中文大約一兩個字算一個 Token；用 AI 是照 Token 數計費，所以「老師有 Token」就是「AI 用量老師買單」。
+API：讓程式之間互相呼叫的窗口。同學寫的程式透過 API 呼叫 AI 模型，用多少付多少。
+LLM（大語言模型）：讀過大量文字、能理解與產生語言的 AI，例如 ChatGPT 背後的模型。
+GPU／DGX：GPU 是擅長大量平行計算的晶片，AI 訓練與推論都靠它；NVIDIA DGX 是裝滿 GPU 的 AI 專用伺服器。
+微調（Fine-tuning）：拿特定領域的資料再訓練模型，讓它更懂某個專業。
+Prompt（提示詞）：給 AI 的指令或問題；提示工程就是把指令寫清楚，讓 AI 回答更準。
+
+## AI 名詞小辭典（二）代理人與應用
+關鍵字：名詞、意思、是什麼、是啥、解釋、白話、Agent、代理人、多代理人、Multi-Agent、RAG、n8n、Make、MCP、FDE、前進部署工程師、地端、Local AI、OCR、工作流、自動化、term、meaning、what is
+網頁：https://drchunchihchen.github.io/cv/#laboratory
+AI Agent（AI 代理人）：不只回答問題，還會自己拆解任務、使用工具、一步步把事情做完的 AI。
+多代理人（Multi-Agent）：讓好幾個各有專長的 Agent 分工合作，例如選品、上架、客服各一個，像一個小團隊。
+RAG（檢索增強生成）：AI 回答前先去資料庫找相關資料再回答，比較不會亂編；這個機器人就是用類似做法。
+n8n／Make：用拖拉方塊就能把各種軟體串起來的自動化工具，例如收到訂單就自動通知、自動記帳。
+MCP：讓 AI 能連接外部工具與資料的標準接口，像 AI 的萬用插座。
+FDE（前進部署工程師）：到企業現場、直接把 AI 解決方案做出來並導入的工程師；實驗室想培養「國貿＋AI」的 FDE。
+地端 AI（Local AI）：AI 模型裝在自己的電腦或伺服器上跑，資料不用上傳雲端，比較保護隱私。
+OCR：把圖片裡的文字辨識成可編輯文字的技術。
