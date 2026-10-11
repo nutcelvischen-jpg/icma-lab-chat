@@ -10,71 +10,71 @@
 -->
 
 ## 實驗室總覽
-關鍵字：實驗室、ICMA、介紹、是什麼、在做什麼、主持人、老師、口號
+關鍵字：實驗室、ICMA、介紹、是什麼、在做什麼、主持人、老師、口號、lab、ICMA、about、what do you do、professor、PI
 網頁：https://drchunchihchen.github.io/cv/#laboratory
 智慧商務多代理人實驗室（ICMA Lab, Intelligent Commerce & Multi-Agent Systems），隸屬國立臺中科技大學 國際貿易與經營系，主持人為陳俊智 博士（副教授、商業智慧應用與研究中心主任）。口號：「你有點子，老師有 Token！」號稱國貿系最多 Token 的實驗室，培養「國貿＋AI FDE（前進部署工程師）」。三大方向：AI 代理人團隊分工（Multi-Agent AI）、智慧商務數據決策、企業流程全自動化（n8n / Make）。聯絡 email：nutcelvischen@gmail.com。
 
 ## 加入實驗室
-關鍵字：加入、招生、申請、報名、參加、專題、要會什麼、條件、門檻、名額
+關鍵字：加入、招生、申請、報名、參加、專題、要會什麼、條件、門檻、名額、join、apply、recruit、admission、how to join、requirement
 網頁：https://drchunchihchen.github.io/cv/#laboratory
 實驗室招生中，歡迎對 AI Agent 應用、商業自動化與創新創業有熱忱的同學加入，一起把點子做成落地產品。申請方式：寄信到 nutcelvischen@gmail.com，簡單介紹自己、興趣與想做的點子。名額、時程與修課規定網站上沒有公布，請直接寫信詢問老師。
 
 ## 算力與資源
-關鍵字：算力、GPU、DGX、Token、API、設備、資源、經費
+關鍵字：算力、GPU、DGX、Token、API、設備、資源、經費、GPU、DGX、compute、tokens、resources
 網頁：https://drchunchihchen.github.io/cv/#laboratory
 實驗室有 NVIDIA DGX × 3 算力中心（Token 吃到飽），支撐大規模多代理人模擬、大語言模型微調與高頻商務決策。理念是別讓 API 餘額限制同學的想法。
 
 ## 學生作品：TradeDNA
-關鍵字：TradeDNA、上架、Alibaba、阿里巴巴、外掛、Chrome、商品、跨境電商、學生作品
+關鍵字：TradeDNA、上架、Alibaba、阿里巴巴、外掛、Chrome、商品、跨境電商、學生作品、TradeDNA、listing、Alibaba、extension、student project
 網頁：https://drchunchihchen.github.io/cv/#laboratory
 TradeDNA｜AI 商品上架輔助瀏覽器外掛，標語「AI 懂市場，TradeDNA 讓 AI 懂你們公司」。Chrome 側欄外掛，協助賣家準備 Alibaba 上架：匯入 Excel 與實拍照、生成中英雙語標題與 SEO 關鍵字、AI 生成白底主圖與情境圖、瀏覽時採集競品（最多 8 筆比對）、商業儀表板。未知規格留白不編造，最後由人決定是否採用 AI 建議。
 
 ## 學生作品：址南針 SiteCompass
-關鍵字：址南針、SiteCompass、選址、開店、店面、門牌、倒店、租屋、學生作品
+關鍵字：址南針、SiteCompass、選址、開店、店面、門牌、倒店、租屋、學生作品、SiteCompass、site selection、store、shop、lease、student project
 網頁：https://drchunchihchen.github.io/cv/#laboratory
 址南針 SiteCompass｜店面選址與門牌履歷風險評估，標語「簽約前，先看這個門牌換過幾家」。串聯經濟部商工登記 270 萬筆紀錄（2013–2026）建立 288 萬筆門牌履歷，比對稅籍、人口與實價登錄租金。功能：一句話選址、3D 招牌地層、真實營運查核、三年倒店風險模型（11.3 萬家回測，最穩定組倒店率 6%、最危險組 36%）、AI 簽約前評估書（每個數字都附出處）。
 
 ## 指導學生競賽成績
-關鍵字：得獎、競賽、比賽、冠軍、名次、阿里巴巴競賽、跨境電商競賽、成績
+關鍵字：得獎、競賽、比賽、冠軍、名次、阿里巴巴競賽、跨境電商競賽、成績、awards、competition、champion、prize
 網頁：https://drchunchihchen.github.io/cv/awards.html
 指導學生獲獎：2025 全國電子設計創意競賽（多模型 AI 代理人零售數據分析）全國冠軍；第十屆阿里巴巴 B2B 全國大專跨境電商競賽 全國第一名（七仙過海，合作海峰機械）與全國第三名（商海裡的快樂鯰魚）；第九屆、第八屆全國第二名、第七屆全國第三名；2025 臺中科大「創出名堂」全國第二名；2025 逢甲大學中區跨境電商實作競賽 亞軍。
 
 ## 自研軟體
-關鍵字：軟體、系統、你說的算、碳盤查、碳足跡、HelloIR、校務、護照、OCR、地端
+關鍵字：軟體、系統、你說的算、碳盤查、碳足跡、HelloIR、校務、護照、OCR、地端、software、tool、carbon、passport、OCR、HelloIR、on-premise
 網頁：https://drchunchihchen.github.io/cv/projects.html
 老師自研軟體：①「你說的算」敏捷碳盤查／碳足跡軟體，支援活動數據自動換算、碳排熱點可視化與減碳情境模擬。② HelloIR 智慧校務分析平台，以機器學習預警學生休退學風險。③ 地端 AI 護照辨識系統，在本機辨識護照、個資不外流，結合機讀碼檢查碼驗證與人工確認，實測 100 本護照欄位正確率 98%。
 
 ## 研究與產學計畫
-關鍵字：研究、計畫、國科會、產學、合作、企業、康寧、工研院、專案
+關鍵字：研究、計畫、國科會、產學、合作、企業、康寧、工研院、專案、research、grant、NSTC、project、industry、partner、Corning、ITRI
 網頁：https://drchunchihchen.github.io/cv/projects.html
 研究雙軌：永續淨零 × AI 智慧轉型，15+ 項國科會與產學計畫。國科會計畫包括「智慧代理人：解決台灣製造業人才與數據雙重赤字」（2025–2026）、FDI 對區域永續的不平等影響（2025–2026）等。產學夥伴：台灣康寧、快思（CRIS）、工研院、丞桀、寶暉、世聚、海峰機械、哈伯精密等，主題涵蓋 MRP 與 LLM 智慧排程、企業碳盤查、AI 數位師徒制、跨境電商 AI 行銷。
 
 ## 課程與教材
-關鍵字：課程、上課、教材、講義、軟體工程、Python、學習、教學、YouTube、影片
+關鍵字：課程、上課、教材、講義、軟體工程、Python、學習、教學、YouTube、影片、course、class、teaching、textbook、Python、YouTube
 網頁：https://drchunchihchen.github.io/cv/teaching.html
 教學資源：①《現代軟體工程：商學院的 AI 系統思維與 Agent 實踐》講義（編輯中），用 Google 試算表＋GAS 逐章做出跨國 ERP／CRM 系統。②「Python 學堂：從零到資料分析」免費線上教材，用台灣公開資料實作。③ YouTube 教學播放清單：Python 商務程式設計、商業智慧、機器學習、提示工程。都在網站「教學資源」頁。
 
 ## 老師簡介與專長
-關鍵字：陳俊智、Elvis、經歷、學歷、博士、專長、證照、研究領域、論文
+關鍵字：陳俊智、Elvis、經歷、學歷、博士、專長、證照、研究領域、論文、Elvis、Chen、biography、background、education、PhD、expertise、certification
 網頁：https://drchunchihchen.github.io/cv/#about
 陳俊智 博士（Elvis Chen），國立陽明交通大學管理科學博士，曾任美國北卡羅來納州立大學訪問學者、東海大學校務研究中心博士後。現為臺中科大國貿系副教授、商業智慧應用與研究中心主任。研究：能源經濟、生態足跡、追蹤資料計量、AI Agent 自動化；12 篇 SCI/SSCI 論文、400+ 次引用。證照：iPAS AI 應用規劃師、iPAS 淨零碳管理師、ISO 14064-1 主任查證員。
 
 ## 演講與培訓
-關鍵字：演講、講座、邀請、培訓、iPAS、勞動部
+關鍵字：演講、講座、邀請、培訓、iPAS、勞動部、talk、speech、seminar、invite、training
 網頁：https://drchunchihchen.github.io/cv/talks.html
 曾於國立台北商業大學、國立科學工藝博物館、逢甲大學、中央大學等演講；主持勞動部 AI 應用與 iPAS（AI 應用規劃師、淨零碳管理師）系列培訓。邀請演講請寫信到 nutcelvischen@gmail.com。
 
 ## 聯絡方式
-關鍵字：聯絡、email、信箱、電話、地址、辦公室、在哪裡、位置
+關鍵字：聯絡、email、信箱、電話、地址、辦公室、在哪裡、位置、contact、email、phone、address、office、location
 網頁：https://drchunchihchen.github.io/cv/#contact
 Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台中市北區三民路三段 129 號 中正大樓 7 樓 3705。
 
 ## 論文與研究領域
-關鍵字：論文、文章、期刊、發表、研究領域、著作、SCI、SSCI、引用、領域、主題、學術
+關鍵字：論文、文章、期刊、發表、研究領域、著作、SCI、SSCI、引用、領域、主題、學術、paper、publication、journal、research area、field、topic、citation、circular economy、ecological footprint、decoupling
 網頁：https://drchunchihchen.github.io/cv/publications.html
 老師的論文主要分兩大領域：①環境與資源經濟：循環經濟、生態足跡、經濟成長與環境壓力的「脫鉤」分析、能源轉型（研究對象包括歐盟、G20、台灣、高所得與核能依賴國家）；②智慧製造與決策：排程優化、雲端 APS 先進規劃排程、機器學習與基因演算法的製程參數優化，以及 AI 服務品質。代表作發表於 Journal of Cleaner Production（被引 205 次的高被引論文）、Ecological Indicators、Energy Reports、Robotics and Computer-Integrated Manufacturing 等；另擔任 Energy、Journal of Cleaner Production 等 8+ 本期刊審查委員。完整清單見著作論文頁。
 
 ## 網站導覽
-關鍵字：網站、網頁、哪裡看、在哪、連結、頁面、更多、清單、完整
+關鍵字：網站、網頁、哪裡看、在哪、連結、頁面、更多、清單、完整、website、page、link、where、English
 網頁：https://drchunchihchen.github.io/cv/
-網站各頁：首頁（關於老師、實驗室、聯絡）https://drchunchihchen.github.io/cv/；著作論文 https://drchunchihchen.github.io/cv/publications.html；研究與產學專案 https://drchunchihchen.github.io/cv/projects.html；演講與講座 https://drchunchihchen.github.io/cv/talks.html；榮譽獲獎 https://drchunchihchen.github.io/cv/awards.html；教學資源 https://drchunchihchen.github.io/cv/teaching.html；現代軟體工程講義 https://drchunchihchen.github.io/cv/se/index.html。
+網站各頁：首頁（關於老師、實驗室、聯絡）https://drchunchihchen.github.io/cv/；著作論文 https://drchunchihchen.github.io/cv/publications.html；研究與產學專案 https://drchunchihchen.github.io/cv/projects.html；演講與講座 https://drchunchihchen.github.io/cv/talks.html；榮譽獲獎 https://drchunchihchen.github.io/cv/awards.html；教學資源 https://drchunchihchen.github.io/cv/teaching.html；現代軟體工程講義 https://drchunchihchen.github.io/cv/se/index.html；英文版個人頁（English profile）https://drchunchihchen.github.io/cv/en.html。
