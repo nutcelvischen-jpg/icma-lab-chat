@@ -51,19 +51,19 @@ type Section = { title: string; keys: string; url: string; body: string }
 let kbCache: { at: number; sections: Section[] } | null = null
 
 async function loadKnowledgeText(): Promise<string> {
+  // Primary: the live file on GitHub, so editing knowledge.md needs no Netlify deploy (deploys cost credits).
+  try {
+    const r = await fetch(KNOWLEDGE_RAW_URL, { headers: { "Cache-Control": "no-cache" } })
+    if (r.ok) return await r.text()
+    console.error("knowledge fetch", r.status)
+  } catch (err) { console.error("knowledge fetch failed", String(err)) }
+  // Fallback: the copy bundled with the last deploy.
   const { readFile } = await import("node:fs/promises")
   const { join, resolve } = await import("node:path")
-  const candidates = [
-    resolve("knowledge.md"),
-    join(process.env.LAMBDA_TASK_ROOT || "", "knowledge.md"),
-    new URL("../../knowledge.md", import.meta.url).pathname,
-  ]
-  for (const f of candidates) {
+  for (const f of [resolve("knowledge.md"), join(process.env.LAMBDA_TASK_ROOT || "", "knowledge.md"), new URL("../../knowledge.md", import.meta.url).pathname]) {
     try { return await readFile(f, "utf8") } catch { /* try next */ }
   }
-  const r = await fetch(KNOWLEDGE_RAW_URL)
-  if (!r.ok) throw new Error("knowledge fetch " + r.status)
-  return await r.text()
+  throw new Error("knowledge.md not found")
 }
 
 function parseKnowledge(md: string): Section[] {
