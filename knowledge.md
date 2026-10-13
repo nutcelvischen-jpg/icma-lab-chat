@@ -44,7 +44,7 @@ TradeDNA｜AI 商品上架輔助瀏覽器外掛，標語「AI 懂市場，TradeD
 ## 自研軟體
 關鍵字：軟體、系統、你說的算、碳盤查、碳足跡、HelloIR、校務、護照、宅護照、StayPass、OCR、地端、數位孿生、Digital Twin、CNC、智慧製造、工廠、software、tool、carbon、passport、OCR、HelloIR、on-premise
 網頁：https://drchunchihchen.github.io/cv/projects.html
-老師自研軟體：①「你說的算」敏捷碳盤查／碳足跡軟體，支援活動數據自動換算、碳排熱點可視化與減碳情境模擬。② HelloIR 智慧校務分析平台，以機器學習預警學生休退學風險。③「StayPass 宅護照」地端 AI 護照辨識系統（資料宅在你電腦裡不出門），在本機辨識護照、個資不外流，結合機讀碼檢查碼驗證與人工確認，實測 100 本護照欄位正確率 98%。④ CNC 工廠數位孿生：把 CNC 廠區搬進瀏覽器，3D 即時呈現每台機台狀態、用電與碳排，有電力圖層、碳排圖層與情境模擬（雲層遮蔽、機台故障），下一步以 IoT Gateway 串接真實產線；目前為展示畫面與模擬資料。
+老師自研軟體：①「你說的算」敏捷碳盤查／碳足跡軟體，支援活動數據自動換算、碳排熱點可視化與減碳情境模擬。② HelloIR 智慧校務分析平台，以機器學習預警學生休退學風險。③「StayPass 宅護照」地端 AI 護照辨識系統（資料宅在你電腦裡不出門），在本機辨識護照、個資不外流，結合機讀碼檢查碼驗證與人工確認，實測 100 本護照欄位正確率 98%。④ CNC 工廠數位孿生：把 CNC 廠區搬進瀏覽器，3D 即時呈現每台機台狀態、用電與碳排，有電力圖層、碳排圖層與情境模擬（雲層遮蔽、機台故障），下一步以 IoT Gateway 串接真實產線；目前為展示畫面與模擬資料，互動展示：https://cnc-factory-twin.elvischen.chatgpt.site 。
 
 ## 研究與產學計畫
 關鍵字：研究、計畫、國科會、產學、合作、企業、康寧、工研院、專案、research、grant、NSTC、project、industry、partner、Corning、ITRI
