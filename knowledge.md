@@ -69,7 +69,7 @@ TradeDNA｜AI 商品上架輔助瀏覽器外掛，標語「AI 懂市場，TradeD
 ## 聯絡方式
 關鍵字：聯絡、email、信箱、電話、地址、辦公室、在哪裡、位置、contact、email、phone、address、office、location
 網頁：https://drchunchihchen.github.io/cv/#contact
-Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台中市北區三民路三段 129 號 中正大樓 7 樓 3705。
+Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台中市北區三民路三段 129 號 中科大樓（原中正大樓）7 樓 3705。
 
 ## 論文與研究領域
 關鍵字：論文、文章、期刊、發表、研究領域、著作、SCI、SSCI、引用、領域、主題、學術、paper、publication、journal、research area、field、topic、citation、circular economy、ecological footprint、decoupling
