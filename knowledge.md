@@ -52,9 +52,9 @@ TradeDNA｜AI 商品上架輔助瀏覽器外掛，標語「AI 懂市場，TradeD
 研究雙軌：永續淨零 × AI 智慧轉型，15+ 項國科會與產學計畫。國科會計畫包括「智慧代理人：解決台灣製造業人才與數據雙重赤字」（2025–2026）、FDI 對區域永續的不平等影響（2025–2026）等。產學夥伴：台灣康寧、快思（CRIS）、工研院、丞桀、寶暉、世聚、海峰機械、哈伯精密等，主題涵蓋 MRP 與 LLM 智慧排程、企業碳盤查、AI 數位師徒制、跨境電商 AI 行銷。
 
 ## 課程與教材
-關鍵字：課程、上課、教材、講義、軟體工程、Python、學習、教學、YouTube、影片、course、class、teaching、textbook、Python、YouTube
+關鍵字：課程、上課、教材、講義、軟體工程、AI 代理協作、設計文件、溝通協定、核准關卡、Python、學習、教學、YouTube、影片、course、class、teaching、textbook、Python、YouTube
 網頁：https://drchunchihchen.github.io/cv/teaching.html
-教學資源：①《現代軟體工程：商學院的 AI 系統思維與 Agent 實踐》講義（編輯中），用 Google 試算表＋GAS 逐章做出跨國 ERP／CRM 系統。②「Python 學堂：從零到資料分析」免費線上教材，用台灣公開資料實作。③ YouTube 教學播放清單：Python 商務程式設計、商業智慧、機器學習、提示工程。都在網站「教學資源」頁。
+教學資源：①《現代軟體工程：商學院的 AI 系統思維與 Agent 實踐》講義（編輯中），用 Google 試算表＋GAS 逐章做出跨國 ERP／CRM 系統；近期新增「與 AI 代理協作」單元：2.8 設計先行（設計文件讓沒參與討論的人也看得懂）、4.6 指揮 AI 的溝通協定（命名、D／O／Q 決策編號、宣稱 vs. 驗證）、9.6 停止條件與核准關卡（AI 說做完了不算數）。②「Python 學堂：從零到資料分析」免費線上教材，用台灣公開資料實作。③ YouTube 教學播放清單：Python 商務程式設計、商業智慧、機器學習、提示工程。都在網站「教學資源」頁。
 
 ## 老師簡介與專長
 關鍵字：陳俊智、Elvis、經歷、學歷、博士、專長、證照、研究領域、論文、Elvis、Chen、biography、background、education、PhD、expertise、certification
@@ -69,7 +69,7 @@ TradeDNA｜AI 商品上架輔助瀏覽器外掛，標語「AI 懂市場，TradeD
 ## 聯絡方式
 關鍵字：聯絡、email、信箱、電話、地址、辦公室、在哪裡、位置、contact、email、phone、address、office、location
 網頁：https://drchunchihchen.github.io/cv/#contact
-Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台中市北區三民路三段 129 號 中科大樓（原中正大樓）7 樓 3705。
+Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台中市北區三民路三段 129 號 中科大樓（原中正大樓）7 樓 3705。不知道怎麼走，可以開 3D 校園導覽帶路：https://drchunchihchen.github.io/cv/campus/?q=3705 。
 
 ## 論文與研究領域
 關鍵字：論文、文章、期刊、發表、研究領域、著作、SCI、SSCI、引用、領域、主題、學術、paper、publication、journal、research area、field、topic、citation、circular economy、ecological footprint、decoupling
@@ -79,7 +79,7 @@ Email：nutcelvischen@gmail.com；電話：+886-4-2219-6120；地址：404 台�
 ## 網站導覽
 關鍵字：網站、網頁、哪裡看、在哪、連結、頁面、更多、清單、完整、website、page、link、where、English
 網頁：https://drchunchihchen.github.io/cv/
-網站各頁：首頁（關於老師、實驗室、聯絡）https://drchunchihchen.github.io/cv/；著作論文 https://drchunchihchen.github.io/cv/publications.html；研究與產學專案 https://drchunchihchen.github.io/cv/projects.html；演講與講座 https://drchunchihchen.github.io/cv/talks.html；榮譽獲獎 https://drchunchihchen.github.io/cv/awards.html；教學資源 https://drchunchihchen.github.io/cv/teaching.html；現代軟體工程講義 https://drchunchihchen.github.io/cv/se/index.html；英文版個人頁（English profile）https://drchunchihchen.github.io/cv/en.html。
+網站各頁：首頁（關於老師、實驗室、聯絡）https://drchunchihchen.github.io/cv/；著作論文 https://drchunchihchen.github.io/cv/publications.html；研究與產學專案 https://drchunchihchen.github.io/cv/projects.html；演講與講座 https://drchunchihchen.github.io/cv/talks.html；榮譽獲獎 https://drchunchihchen.github.io/cv/awards.html；教學資源 https://drchunchihchen.github.io/cv/teaching.html；現代軟體工程講義 https://drchunchihchen.github.io/cv/se/index.html；3D 校園導覽 https://drchunchihchen.github.io/cv/campus/；國貿實戰學院 https://nutcelvischen-jpg.github.io/trade-retail-lab/；英文版個人頁（English profile）https://drchunchihchen.github.io/cv/en.html。
 
 ## AI 名詞小辭典（一）模型與運算
 關鍵字：名詞、意思、是什麼、是啥、解釋、白話、Token、API、LLM、大語言模型、GPU、DGX、算力、微調、fine-tune、Prompt、提示詞、提示工程、term、meaning、what is
@@ -104,9 +104,9 @@ FDE（前進部署工程師）：到企業現場、直接把 AI 解決方案做�
 OCR：把圖片裡的文字辨識成可編輯文字的技術。
 
 ## 老師小八卦
-關鍵字：八卦、小秘密、喜歡、愛吃、興趣、嗜好、巧克力、減肥、飲料、單槓、運動、健身、宅、個性、fun fact、hobby、like
+關鍵字：八卦、小秘密、彩蛋、萬聖節、Q版、喜歡、愛吃、興趣、嗜好、巧克力、減肥、飲料、單槓、運動、健身、宅、個性、fun fact、hobby、like
 網頁：https://drchunchihchen.github.io/cv/#about
-老師愛運動，也非常喜歡吃巧克力，但目前減肥中，請勿餵食；飲料只喝無糖。肚子有點大，標準中年老頭身材，不過可以一次拉單槓 20 下，挑戰成功老師會很佩服你（all pass 是開玩笑的）。老師講話很直接，激動起來偶爾會飆一下。老師很宅，整天都在玩 AI Agent。
+老師愛運動，也非常喜歡吃巧克力，但目前減肥中，請勿餵食；飲料只喝無糖。肚子有點大，標準中年老頭身材，不過可以一次拉單槓 20 下，挑戰成功老師會很佩服你（all pass 是開玩笑的）。老師講話很直接，激動起來偶爾會飆一下。老師很宅，整天都在玩 AI Agent。彩蛋：平常點首頁的 Q 版老師，他會表演拉單槓；10/17–10/31 萬聖節期間，Q 版老師每天換一套造型，首頁還有糖果雨、小鬼和可開關的背景音樂。
 
 ## 專題與競賽指導
 關鍵字：專題要求、完成專題、幾次比賽、文字報告、專題、競賽、比賽、指導、找老師做專題、指導老師、作品、履歷、畢業專題、project、competition、advisor、portfolio
@@ -123,7 +123,12 @@ OCR：把圖片裡的文字辨識成可編輯文字的技術。
 網頁：https://drchunchihchen.github.io/cv/#business
 老師與實驗室提供企業五類服務：①AI 教育訓練（可結合 iPAS 培訓）②地端 AI 體驗與導入（資料不出公司）③AI Agent 與 n8n／Make 自動化工作流④客製軟體與決策儀表板⑤淨零碳盤查輔導（ISO 14064-1 主任查證員）。流程：免費諮詢 30 分鐘 → 找一個痛點小規模試行 → 正式導入 → 教育訓練與交接，可透過學校產學合作機制辦理。合作過：台灣康寧、工研院、快思 CRIS、海峰機械、哈伯精密、世聚、寶暉、丞桀。預約請寫信到 nutcelvischen@gmail.com，報上公司名稱與想解決的問題；費用依需求另議。
 
-## 師生共製：展流 Expo Flow
-關鍵字：展流、Expo Flow、展場、展覽、人流、動線、攤位、佈展、模擬、排隊、師生共製
-網頁：https://drchunchihchen.github.io/cv/#laboratory
-展流 Expo Flow 是老師與學生共同製作的「國貿展場人流實驗室」。同學可以像玩模擬城市一樣親手蓋展場、擺攤位、設定入口出口，放人進場模擬行走路線、密度與排隊，看出哪裡會塞、哪裡最順；同一批訪客可跑不同擺法，系統給出分數、理由與改善方向。定位：學生動手做、教師有依據（同條件比較、權重可調、評分可匯出）、產業先推演（佈展前先在沙盤演練動線）。試用網址：https://expo-flow-classroom.elvischen.chatgpt.site
+## 師生共製：國貿實戰學院（含展流 Expo Flow）
+關鍵字：國貿實戰學院、實戰學院、貿易零售實驗室、Trade Academy、展流、Expo Flow、展場、展覽、人流、動線、攤位、佈展、便利商店、Corner Flow、零售、裝箱、貨櫃、談判、模擬器、師生共製
+網頁：https://nutcelvischen-jpg.github.io/trade-retail-lab/
+國貿實戰學院是老師與 ICMA Lab 學生共同開發的互動教學網站，把一筆生意「展場 → 零售 → 裝箱 → 談判」拆成可以動手試錯的模擬器：①展場人流 Expo Flow：親手蓋展場、擺攤位，模擬人流密度與排隊，系統評分並給改善方向 https://nutcelvischen-jpg.github.io/trade-retail-lab/expo/ ②巷口便利商店 Corner Flow：調整貨架與動線 https://nutcelvischen-jpg.github.io/trade-retail-lab/corner/ ③裝箱模擬 ④商務談判。學習地圖：https://nutcelvischen-jpg.github.io/trade-retail-lab/guide.html 。學習進度只存在自己的瀏覽器。宣傳影片在網站首頁「實驗室作品」與「研究與產學專案」頁。
+
+## 3D 校園導覽
+關鍵字：校園導覽、3D、地圖、怎麼走、怎麼去、研究室在哪、辦公室在哪、找不到、中科大樓、中正大樓、3705、教室、大樓、三民校區、路線、campus、map、tour、directions、office
+網頁：https://drchunchihchen.github.io/cv/campus/?q=3705
+老師自己做了臺中科大三民校區 3D 校園導覽，可以在瀏覽器裡轉動校園、搜尋教室或大樓，並讓小人帶你一路走過去（可暫停、再走一次）。老師研究室在中科大樓（原中正大樓）7 樓 3705，直接開這個連結就會帶你走到 3705：https://drchunchihchen.github.io/cv/campus/?q=3705 。另有手繪風版本：https://drchunchihchen.github.io/cv/campus/sketch.html 。
